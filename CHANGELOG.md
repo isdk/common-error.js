@@ -7,6 +7,13 @@ All notable changes to this project will be documented in this file. See [commit
 
 ### Bug Fixes
 
+* **ts:** minor changes ([533ed94](https://github.com/isdk/common-error.js/commit/533ed946686188be88f8a204d390f4c3d1e25f73))
+
+## 0.1.1 (2024-09-08)
+
+
+### Bug Fixes
+
 * many bugs fixed ([c8de997](https://github.com/isdk/ipc-server.js/commit/c8de997722faf495d49a9bc12a95c72a1af3c94e))
 * **ts:** minor changes ([c3fb3fb](https://github.com/isdk/ipc-server.js/commit/c3fb3fba29fc061fb6351db325393db38e7575c9))
 
