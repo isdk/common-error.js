@@ -236,4 +236,3 @@ export function throwError(message: string, name?: string|Record<string, any>, s
   const error = createError(message, name, status)
   throw error
 }
-
