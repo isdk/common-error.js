@@ -1,4 +1,6 @@
-@isdk/common-error / [Exports](modules.md)
+**@isdk/common-error** • [**Docs**](globals.md)
+
+***
 
 # IPC-Server
 

@@ -1,10 +1,14 @@
-[@isdk/common-error](../README.md) / [Exports](../modules.md) / BaseError
+[**@isdk/common-error**](../README.md) • **Docs**
+
+***
+
+[@isdk/common-error](../globals.md) / BaseError
 
 # Class: BaseError
 
 BaseError class that extends the Error class.
 
-**`Example`**
+## Example
 
 ```ts
 // Create a custom error
@@ -19,66 +23,47 @@ class CustomError extends BaseError {
 throw new CustomError('This is a custom error');
 ```
 
-**`Description`**
+## Description
 
 This class is used to create custom errors that extend the built-in Error class. It provides a way to define custom error codes and additional data associated with the error.
 
-**`Method`**
+## Method
 
 toJSON - Returns a JSON representation of the error.
 
-**`Method`**
+## Method
 
 fromJSON - Creates a new BaseError instance from a JSON representation.
 
-## Hierarchy
+## Extends
 
 - `AbstractError`
 
-  ↳ **`BaseError`**
+## Extended by
 
-  ↳↳ [`CommonError`](CommonError.md)
-
-## Table of contents
-
-### Constructors
-
-- [constructor](BaseError.md#constructor)
-
-### Properties
-
-- [caller](BaseError.md#caller)
-- [code](BaseError.md#code)
-- [data](BaseError.md#data)
-- [message](BaseError.md#message)
-- [name](BaseError.md#name)
-- [stack](BaseError.md#stack)
-- [code](BaseError.md#code-1)
-- [prepareStackTrace](BaseError.md#preparestacktrace)
-- [stackTraceLimit](BaseError.md#stacktracelimit)
-
-### Methods
-
-- [fromJSON](BaseError.md#fromjson)
-- [toJSON](BaseError.md#tojson)
-- [captureStackTrace](BaseError.md#capturestacktrace)
-- [createErrorClass](BaseError.md#createerrorclass)
+- [`CommonError`](CommonError.md)
 
 ## Constructors
 
-### constructor
+### new BaseError()
 
-• **new BaseError**(`message`, `code?`, `name?`): [`BaseError`](BaseError.md)
+> **new BaseError**(`message`, `code`?, `name`?): [`BaseError`](BaseError.md)
 
 Constructs a new BaseError instance.
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `message` | `string` | The error message. |
-| `code?` | [`ErrorCodeType`](../modules.md#errorcodetype) | The error code. |
-| `name?` | `string` \| `object` | The error name or additional properties. |
+• **message**: `string`
+
+The error message.
+
+• **code?**: [`ErrorCodeType`](../type-aliases/ErrorCodeType.md)
+
+The error code.
+
+• **name?**: `string` \| `Record`\<`string`, `any`\>
+
+The error name or additional properties.
 
 #### Returns
 
@@ -86,166 +71,163 @@ Constructs a new BaseError instance.
 
 #### Overrides
 
-AbstractError.constructor
+`AbstractError.constructor`
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:81](https://github.com/isdk/common-error.js/blob/533ed946686188be88f8a204d390f4c3d1e25f73/src/base-error.ts#L81)
+[packages/common-error/src/base-error.ts:88](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L88)
 
 ## Properties
 
 ### caller
 
-• **caller**: `string`
+> **caller**: `string`
 
 The name of the function that threw the error.
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:66](https://github.com/isdk/common-error.js/blob/533ed946686188be88f8a204d390f4c3d1e25f73/src/base-error.ts#L66)
+[packages/common-error/src/base-error.ts:66](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L66)
 
-___
+***
 
 ### code
 
-• **code**: [`ErrorCodeType`](../modules.md#errorcodetype)
+> **code**: [`ErrorCodeType`](../type-aliases/ErrorCodeType.md)
+
+the error code
 
 #### Overrides
 
-AbstractError.code
+`AbstractError.code`
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:67](https://github.com/isdk/common-error.js/blob/533ed946686188be88f8a204d390f4c3d1e25f73/src/base-error.ts#L67)
+[packages/common-error/src/base-error.ts:67](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L67)
 
-___
+***
 
-### data
+### data?
 
-• `Optional` **data**: `any`
+> `optional` **data**: `any`
 
 Additional data associated with the error.
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:68](https://github.com/isdk/common-error.js/blob/533ed946686188be88f8a204d390f4c3d1e25f73/src/base-error.ts#L68)
+[packages/common-error/src/base-error.ts:68](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L68)
 
-___
+***
 
 ### message
 
-• **message**: `string`
+> **message**: `string`
 
 #### Inherited from
 
-AbstractError.message
+`AbstractError.message`
 
 #### Defined in
 
-node_modules/.pnpm/typescript@5.4.5/node_modules/typescript/lib/lib.es5.d.ts:1077
+node\_modules/.pnpm/typescript@5.6.2/node\_modules/typescript/lib/lib.es5.d.ts:1077
 
-___
+***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 #### Inherited from
 
-AbstractError.name
+`AbstractError.name`
 
 #### Defined in
 
-node_modules/.pnpm/typescript@5.4.5/node_modules/typescript/lib/lib.es5.d.ts:1076
+node\_modules/.pnpm/typescript@5.6.2/node\_modules/typescript/lib/lib.es5.d.ts:1076
 
-___
+***
 
-### stack
+### stack?
 
-• `Optional` **stack**: `string`
+> `optional` **stack**: `string`
 
 #### Inherited from
 
-AbstractError.stack
+`AbstractError.stack`
 
 #### Defined in
 
-node_modules/.pnpm/typescript@5.4.5/node_modules/typescript/lib/lib.es5.d.ts:1078
+node\_modules/.pnpm/typescript@5.6.2/node\_modules/typescript/lib/lib.es5.d.ts:1078
 
-___
+***
 
 ### code
 
-▪ `Static` **code**: [`ErrorCodeType`](../modules.md#errorcodetype)
+> `static` **code**: [`ErrorCodeType`](../type-aliases/ErrorCodeType.md)
 
 The error code associated with the error.
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:65](https://github.com/isdk/common-error.js/blob/533ed946686188be88f8a204d390f4c3d1e25f73/src/base-error.ts#L65)
+[packages/common-error/src/base-error.ts:65](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L65)
 
-___
+***
 
-### prepareStackTrace
+### prepareStackTrace()?
 
-▪ `Static` `Optional` **prepareStackTrace**: (`err`: `Error`, `stackTraces`: `CallSite`[]) => `any`
+> `static` `optional` **prepareStackTrace**: (`err`, `stackTraces`) => `any`
 
 Optional override for formatting stack traces
 
-**`See`**
+#### Parameters
 
-https://v8.dev/docs/stack-trace-api#customizing-stack-traces
+• **err**: `Error`
 
-#### Type declaration
+• **stackTraces**: `CallSite`[]
 
-▸ (`err`, `stackTraces`): `any`
-
-##### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `err` | `Error` |
-| `stackTraces` | `CallSite`[] |
-
-##### Returns
+#### Returns
 
 `any`
 
+#### See
+
+https://v8.dev/docs/stack-trace-api#customizing-stack-traces
+
 #### Inherited from
 
-AbstractError.prepareStackTrace
+`AbstractError.prepareStackTrace`
 
 #### Defined in
 
-node_modules/.pnpm/@types+node@20.14.9/node_modules/@types/node/globals.d.ts:28
+node\_modules/.pnpm/@types+node@20.14.2/node\_modules/@types/node/globals.d.ts:28
 
-___
+***
 
 ### stackTraceLimit
 
-▪ `Static` **stackTraceLimit**: `number`
+> `static` **stackTraceLimit**: `number`
 
 #### Inherited from
 
-AbstractError.stackTraceLimit
+`AbstractError.stackTraceLimit`
 
 #### Defined in
 
-node_modules/.pnpm/@types+node@20.14.9/node_modules/@types/node/globals.d.ts:30
+node\_modules/.pnpm/@types+node@20.14.2/node\_modules/@types/node/globals.d.ts:30
 
 ## Methods
 
-### fromJSON
+### fromJSON()
 
-▸ **fromJSON**(`json`): [`BaseError`](BaseError.md)
+> **fromJSON**(`json`): [`BaseError`](BaseError.md)
 
 Creates a new BaseError instance from a JSON representation.
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `json` | `any` | A JSON representation of the error. |
+• **json**: `any`
+
+A JSON representation of the error.
 
 #### Returns
 
@@ -255,13 +237,13 @@ A new BaseError instance.
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:131](https://github.com/isdk/common-error.js/blob/533ed946686188be88f8a204d390f4c3d1e25f73/src/base-error.ts#L131)
+[packages/common-error/src/base-error.ts:141](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L141)
 
-___
+***
 
-### toJSON
+### toJSON()
 
-▸ **toJSON**(): `any`
+> **toJSON**(): `any`
 
 Returns a JSON representation of the error.
 
@@ -273,57 +255,116 @@ A JSON representation of the error.
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:111](https://github.com/isdk/common-error.js/blob/533ed946686188be88f8a204d390f4c3d1e25f73/src/base-error.ts#L111)
+[packages/common-error/src/base-error.ts:121](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L121)
 
-___
+***
 
-### captureStackTrace
+### captureStackTrace()
 
-▸ **captureStackTrace**(`targetObject`, `constructorOpt?`): `void`
+#### captureStackTrace(targetObject, constructorOpt)
+
+> `static` **captureStackTrace**(`targetObject`, `constructorOpt`?): `void`
 
 Create .stack property on a target object
 
-#### Parameters
+##### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `targetObject` | `object` |
-| `constructorOpt?` | `Function` |
+• **targetObject**: `object`
 
-#### Returns
+• **constructorOpt?**: `Function`
+
+##### Returns
 
 `void`
 
-#### Inherited from
+##### Inherited from
 
-AbstractError.captureStackTrace
+`AbstractError.captureStackTrace`
 
-#### Defined in
+##### Defined in
 
-node_modules/.pnpm/@types+node@20.14.9/node_modules/@types/node/globals.d.ts:21
+node\_modules/.pnpm/@types+node@20.14.2/node\_modules/@types/node/globals.d.ts:21
 
-___
+#### captureStackTrace(targetObject, constructorOpt)
 
-### createErrorClass
+> `static` **captureStackTrace**(`targetObject`, `constructorOpt`?): `void`
 
-▸ **createErrorClass**(`aType`, `aErrorCode?`, `ParentErrorClass?`): typeof [`BaseError`](BaseError.md)
+Create .stack property on a target object
+
+##### Parameters
+
+• **targetObject**: `object`
+
+• **constructorOpt?**: `Function`
+
+##### Returns
+
+`void`
+
+##### Inherited from
+
+`AbstractError.captureStackTrace`
+
+##### Defined in
+
+node\_modules/.pnpm/@types+node@22.5.5/node\_modules/@types/node/globals.d.ts:136
+
+***
+
+### create()
+
+> `static` **create**(`__namedParameters`): [`BaseError`](BaseError.md)
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `aType` | `string` | `undefined` |
-| `aErrorCode?` | `string` \| `number` \| typeof `AbstractError` | `undefined` |
-| `ParentErrorClass` | typeof [`BaseError`](BaseError.md) | `BaseError` |
+• **\_\_namedParameters**
+
+• **\_\_namedParameters.code?**: `string` \| `number`
+
+• **\_\_namedParameters.data?**: `any`
+
+• **\_\_namedParameters.error**: `string`
+
+• **\_\_namedParameters.name?**: `string`
 
 #### Returns
 
-typeof [`BaseError`](BaseError.md)
-
-#### Overrides
-
-AbstractError.createErrorClass
+[`BaseError`](BaseError.md)
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:70](https://github.com/isdk/common-error.js/blob/533ed946686188be88f8a204d390f4c3d1e25f73/src/base-error.ts#L70)
+[packages/common-error/src/base-error.ts:74](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L74)
+
+***
+
+### createErrorClass()
+
+> `static` **createErrorClass**(`aType`, `aErrorCode`?, `ParentErrorClass`?): *typeof* [`BaseError`](BaseError.md)
+
+Create an Error Class
+
+#### Parameters
+
+• **aType**: `string`
+
+the error type(class) name
+
+• **aErrorCode?**: `string` \| `number` \| *typeof* `AbstractError`
+
+• **ParentErrorClass?**: *typeof* [`BaseError`](BaseError.md) = `BaseError`
+
+the parent error class. defaults to AbstractError
+
+#### Returns
+
+*typeof* [`BaseError`](BaseError.md)
+
+the new Error Class
+
+#### Overrides
+
+`AbstractError.createErrorClass`
+
+#### Defined in
+
+[packages/common-error/src/base-error.ts:70](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L70)
