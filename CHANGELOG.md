@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.2](https://github.com/isdk/common-error.js/compare/v0.1.1...v0.1.2) (2024-10-10)
+
+
+### Features
+
+* add static create method ([93463fd](https://github.com/isdk/common-error.js/commit/93463fd20d360c4af96d07cc295f19a4c7e514bd))
+
 ## 0.1.1 (2024-09-08)
 
 
