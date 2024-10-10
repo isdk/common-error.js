@@ -31,6 +31,16 @@ describe('BaseError', () => {
       name: 'CustomError',
     })
   })
+
+  it('should create BaseError via create', ()=>{
+    const err = BaseError.create({error: 'hello message', code: ErrorCode.NotFound})
+    expect(err).toBeInstanceOf(BaseError)
+    expect(err.toJSON()).toMatchObject({
+      error: 'hello message',
+      code: ErrorCode.NotFound,
+      name: 'BaseError',
+    })
+  })
 })
 
 describe('throwError', () => {

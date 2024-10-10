@@ -71,6 +71,13 @@ export class BaseError extends AbstractError {
     return createErrorClass(aType, aErrorCode, ParentErrorClass) as typeof BaseError
   }
 
+  static create({name, code, data, error: message}: {name?: string, code?: number|string, data?: any, error: string}) {
+    const o: any = {}
+    if (data != null) {o.data = data}
+    if (name) {o.name = name}
+    return new this(message, code, o)
+  }
+
   /**
    * Constructs a new BaseError instance.
    *
@@ -78,7 +85,7 @@ export class BaseError extends AbstractError {
    * @param {ErrorCodeType} [code] - The error code.
    * @param {string|object} [name] - The error name or additional properties.
    */
-  constructor(message: string, code?: ErrorCodeType, name?: string|object) {
+  constructor(message: string, code?: ErrorCodeType, name?: string|Record<string, any>) {
     super(message, code)
     const ctor = this.constructor as unknown as BaseError
 
@@ -95,10 +102,13 @@ export class BaseError extends AbstractError {
       } else {
         Object.assign(this, name)
       }
+    }
 
-    } else if (typeof this.code === 'string') {
+    if (typeof this.code === 'string') {
       this.name = this.code
-    } else {
+    }
+
+    if (!name || (typeof name !== 'string' && !name.name)) {
       this.name = ctor.name
     }
   }
