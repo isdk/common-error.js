@@ -75,7 +75,7 @@ The error name or additional properties.
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:88](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L88)
+[packages/common-error/src/base-error.ts:88](https://github.com/isdk/common-error.js/blob/f7578a9ecd75a483a24a80a8e96a99303c1ef148/src/base-error.ts#L88)
 
 ## Properties
 
@@ -87,7 +87,7 @@ The name of the function that threw the error.
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:66](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L66)
+[packages/common-error/src/base-error.ts:66](https://github.com/isdk/common-error.js/blob/f7578a9ecd75a483a24a80a8e96a99303c1ef148/src/base-error.ts#L66)
 
 ***
 
@@ -103,7 +103,7 @@ the error code
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:67](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L67)
+[packages/common-error/src/base-error.ts:67](https://github.com/isdk/common-error.js/blob/f7578a9ecd75a483a24a80a8e96a99303c1ef148/src/base-error.ts#L67)
 
 ***
 
@@ -115,7 +115,7 @@ Additional data associated with the error.
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:68](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L68)
+[packages/common-error/src/base-error.ts:68](https://github.com/isdk/common-error.js/blob/f7578a9ecd75a483a24a80a8e96a99303c1ef148/src/base-error.ts#L68)
 
 ***
 
@@ -169,7 +169,7 @@ The error code associated with the error.
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:65](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L65)
+[packages/common-error/src/base-error.ts:65](https://github.com/isdk/common-error.js/blob/f7578a9ecd75a483a24a80a8e96a99303c1ef148/src/base-error.ts#L65)
 
 ***
 
@@ -237,7 +237,7 @@ A new BaseError instance.
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:141](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L141)
+[packages/common-error/src/base-error.ts:141](https://github.com/isdk/common-error.js/blob/f7578a9ecd75a483a24a80a8e96a99303c1ef148/src/base-error.ts#L141)
 
 ***
 
@@ -255,7 +255,7 @@ A JSON representation of the error.
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:121](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L121)
+[packages/common-error/src/base-error.ts:121](https://github.com/isdk/common-error.js/blob/f7578a9ecd75a483a24a80a8e96a99303c1ef148/src/base-error.ts#L121)
 
 ***
 
@@ -333,7 +333,7 @@ node\_modules/.pnpm/@types+node@22.5.5/node\_modules/@types/node/globals.d.ts:13
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:74](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L74)
+[packages/common-error/src/base-error.ts:74](https://github.com/isdk/common-error.js/blob/f7578a9ecd75a483a24a80a8e96a99303c1ef148/src/base-error.ts#L74)
 
 ***
 
@@ -367,4 +367,4 @@ the new Error Class
 
 #### Defined in
 
-[packages/common-error/src/base-error.ts:70](https://github.com/isdk/common-error.js/blob/93463fd20d360c4af96d07cc295f19a4c7e514bd/src/base-error.ts#L70)
+[packages/common-error/src/base-error.ts:70](https://github.com/isdk/common-error.js/blob/f7578a9ecd75a483a24a80a8e96a99303c1ef148/src/base-error.ts#L70)
