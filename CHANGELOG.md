@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.3](https://github.com/isdk/common-error.js/compare/v0.1.2...v0.1.3) (2024-10-11)
+
+
+### Bug Fixes
+
+* CommonError.create should work too ([f7578a9](https://github.com/isdk/common-error.js/commit/f7578a9ecd75a483a24a80a8e96a99303c1ef148))
+
 ## [0.1.2](https://github.com/isdk/common-error.js/compare/v0.1.1...v0.1.2) (2024-10-10)
 
 
