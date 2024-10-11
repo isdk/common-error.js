@@ -150,6 +150,13 @@ export class BaseError extends AbstractError {
 }
 
 export class CommonError extends BaseError {
+  static create({name, code, data, error: message}: {name?: string, code?: number|string, data?: any, error: string}) {
+    const o: any = {}
+    if (data != null) {o.data = data}
+    if (name) {o.name = name}
+    return new this(message, o, code)
+  }
+
   constructor(message: string, name?: string|Record<string, any>, status: ErrorCodeType = InternalErrorCode) {
     super(message, status, name)
   }
