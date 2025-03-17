@@ -1,4 +1,4 @@
-**@isdk/common-error** • [**Docs**](globals.md)
+**@isdk/common-error**
 
 ***
 

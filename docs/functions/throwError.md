@@ -1,4 +1,4 @@
-[**@isdk/common-error**](../README.md) • **Docs**
+[**@isdk/common-error**](../README.md)
 
 ***
 
@@ -6,32 +6,36 @@
 
 # Function: throwError()
 
-> **throwError**(`message`, `name`?, `status`?): `void`
+> **throwError**(`message`, `name`?, `status`?): `never`
+
+Defined in: [packages/common-error/src/base-error.ts:252](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L252)
 
 Throw an error
 
 ## Parameters
 
-• **message**: `string`
+### message
+
+`string`
 
 Error message
 
-• **name?**: `string` \| `Record`\<`string`, `any`\>
+### name?
 
 Error name, optional
 
-• **status?**: `string` \| `number` = `InternalErrorCode`
+`string` | `Record`\<`string`, `any`\>
+
+### status?
 
 Error status code, default to 500
 
+`string` | `number`
+
 ## Returns
 
-`void`
+`never`
 
 ## Throws
 
 Throws a BaseError object
-
-## Defined in
-
-[packages/common-error/src/base-error.ts:252](https://github.com/isdk/common-error.js/blob/f7578a9ecd75a483a24a80a8e96a99303c1ef148/src/base-error.ts#L252)

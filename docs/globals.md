@@ -1,4 +1,4 @@
-[**@isdk/common-error**](README.md) • **Docs**
+[**@isdk/common-error**](README.md)
 
 ***
 
