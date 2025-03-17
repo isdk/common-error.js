@@ -249,7 +249,7 @@ export function createError(message: string, name?: string|Record<string, any>, 
  * @param status - Error status code, default to 500
  * @throws {BaseError} Throws a BaseError object
  */
-export function throwError(message: string, name?: string|Record<string, any>, status: ErrorCode|ErrorCodeType = InternalErrorCode) {
+export function throwError(message: string, name?: string|Record<string, any>, status: ErrorCode|ErrorCodeType = InternalErrorCode): never {
   const error = createError(message, name, status)
   throw error
 }
