@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.4](https://github.com/isdk/common-error.js/compare/v0.1.3...v0.1.4) (2025-03-17)
+
+
+### Bug Fixes
+
+* **ts:** the throwError never return ([ba75328](https://github.com/isdk/common-error.js/commit/ba75328e754ba949e73cfe3c3e47f894c8ab334d))
+
 ## [0.1.3](https://github.com/isdk/common-error.js/compare/v0.1.2...v0.1.3) (2024-10-11)
 
 
