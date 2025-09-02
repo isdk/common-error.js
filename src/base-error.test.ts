@@ -51,6 +51,34 @@ describe('BaseError', () => {
       name: 'CommonError',
     })
   })
+
+  describe('fromJSON',
+    () => {
+      it('should deserialize a BaseError', () => {
+        const originalError = new BaseError('hello message', ErrorCode.Conflict, 'MyError')
+        originalError.data = { a: 1 }
+        const json = originalError.toJSON()
+
+        const newError = BaseError.fromJSON(json)
+        expect(newError).toBeInstanceOf(BaseError)
+        expect(newError.message).toBe(originalError.message)
+        expect(newError.code).toBe(originalError.code)
+        expect(newError.name).toBe(originalError.name)
+        expect(newError.data).toEqual(originalError.data)
+      })
+
+      it('should deserialize a subclass error', () => {
+        const originalError = new NotFoundError('my-item')
+        const json = originalError.toJSON()
+
+        const newError = NotFoundError.fromJSON(json)
+        expect(newError).toBeInstanceOf(NotFoundError)
+        expect(newError.message).toBe(originalError.message)
+        expect(newError.code).toBe(ErrorCode.NotFound)
+        expect(newError.data).toEqual({ what: 'my-item' })
+      })
+    }
+  )
 })
 
 describe('throwError', () => {

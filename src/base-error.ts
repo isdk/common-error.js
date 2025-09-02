@@ -133,13 +133,23 @@ export class BaseError extends AbstractError {
   }
 
   /**
-   * Creates a new BaseError instance from a JSON representation.
+   * Creates a new error instance from a JSON representation.
+   * This method is useful for deserializing an error that was serialized with `toJSON`.
    *
-   * @param json - A JSON representation of the error.
-   * @returns A new BaseError instance.
+   * @param json - A JSON object representing the error.
+   * @returns A new instance of the error class (or a subclass).
+   *
+   * @example
+   * const originalError = new NotFoundError('thing');
+   * const json = originalError.toJSON();
+   *
+   * // Deserialize
+   * const newError = NotFoundError.fromJSON(json);
+   * console.log(newError instanceof NotFoundError); // true
+   * console.log(newError.message); // 'Could not find thing.'
    */
-  fromJSON(json: any) {
-    const e = new BaseError(json.message)
+  static fromJSON(json: any) {
+    const e = new this(json.message || json.error, json.code, json)
     e.code = json.code
     e.data = json.data
     e.caller = json.caller
