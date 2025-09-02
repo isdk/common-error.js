@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.0](https://github.com/isdk/common-error.js/compare/v0.1.4...v0.2.0) (2025-09-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* fromJSON should be static
+
+### Features
+
+* add method fromJSON to keep compatiabilty ([577bb83](https://github.com/isdk/common-error.js/commit/577bb8389747251b05fc6177a60862a64b029c0d))
+
+
+### Refactor
+
+* fromJSON should be static ([13dd75c](https://github.com/isdk/common-error.js/commit/13dd75c83af20045cbf601ddb6d9b43ad6c1314c))
+
 ## [0.1.4](https://github.com/isdk/common-error.js/compare/v0.1.3...v0.1.4) (2025-03-17)
 
 
