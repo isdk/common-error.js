@@ -157,6 +157,10 @@ export class BaseError extends AbstractError {
     e.stack = json.stack
     return e
   }
+
+  fromJSON(json: any) {
+    return (this.constructor as typeof BaseError).fromJSON(json)
+  }
 }
 
 export class CommonError extends BaseError {
