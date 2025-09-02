@@ -6,7 +6,7 @@
 
 # Class: CommonError
 
-Defined in: [packages/common-error/src/base-error.ts:152](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L152)
+Defined in: [packages/common-error/src/base-error.ts:166](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L166)
 
 BaseError class that extends the Error class.
 
@@ -54,7 +54,7 @@ fromJSON - Creates a new BaseError instance from a JSON representation.
 
 > **new CommonError**(`message`, `name`?, `status`?): [`CommonError`](CommonError.md)
 
-Defined in: [packages/common-error/src/base-error.ts:160](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L160)
+Defined in: [packages/common-error/src/base-error.ts:174](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L174)
 
 #### Parameters
 
@@ -84,7 +84,7 @@ Defined in: [packages/common-error/src/base-error.ts:160](https://github.com/isd
 
 > **caller**: `string`
 
-Defined in: [packages/common-error/src/base-error.ts:66](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L66)
+Defined in: [packages/common-error/src/base-error.ts:66](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L66)
 
 The name of the function that threw the error.
 
@@ -98,7 +98,7 @@ The name of the function that threw the error.
 
 > **code**: [`ErrorCodeType`](../type-aliases/ErrorCodeType.md)
 
-Defined in: [packages/common-error/src/base-error.ts:67](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L67)
+Defined in: [packages/common-error/src/base-error.ts:67](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L67)
 
 the error code
 
@@ -112,7 +112,7 @@ the error code
 
 > `optional` **data**: `any`
 
-Defined in: [packages/common-error/src/base-error.ts:68](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L68)
+Defined in: [packages/common-error/src/base-error.ts:68](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L68)
 
 Additional data associated with the error.
 
@@ -162,7 +162,7 @@ Defined in: node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/li
 
 > `static` **code**: [`ErrorCodeType`](../type-aliases/ErrorCodeType.md)
 
-Defined in: [packages/common-error/src/base-error.ts:65](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L65)
+Defined in: [packages/common-error/src/base-error.ts:65](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L65)
 
 The error code associated with the error.
 
@@ -176,7 +176,7 @@ The error code associated with the error.
 
 > `static` `optional` **prepareStackTrace**: (`err`, `stackTraces`) => `any`
 
-Defined in: node\_modules/.pnpm/@types+node@22.10.10/node\_modules/@types/node/globals.d.ts:143
+Defined in: node\_modules/.pnpm/@types+node@22.13.10/node\_modules/@types/node/globals.d.ts:143
 
 Optional override for formatting stack traces
 
@@ -208,7 +208,7 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 > `static` **stackTraceLimit**: `number`
 
-Defined in: node\_modules/.pnpm/@types+node@22.10.10/node\_modules/@types/node/globals.d.ts:145
+Defined in: node\_modules/.pnpm/@types+node@22.13.10/node\_modules/@types/node/globals.d.ts:145
 
 #### Inherited from
 
@@ -220,9 +220,7 @@ Defined in: node\_modules/.pnpm/@types+node@22.10.10/node\_modules/@types/node/g
 
 > **fromJSON**(`json`): [`BaseError`](BaseError.md)
 
-Defined in: [packages/common-error/src/base-error.ts:141](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L141)
-
-Creates a new BaseError instance from a JSON representation.
+Defined in: [packages/common-error/src/base-error.ts:161](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L161)
 
 #### Parameters
 
@@ -230,13 +228,9 @@ Creates a new BaseError instance from a JSON representation.
 
 `any`
 
-A JSON representation of the error.
-
 #### Returns
 
 [`BaseError`](BaseError.md)
-
-A new BaseError instance.
 
 #### Inherited from
 
@@ -248,7 +242,7 @@ A new BaseError instance.
 
 > **toJSON**(): `any`
 
-Defined in: [packages/common-error/src/base-error.ts:121](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L121)
+Defined in: [packages/common-error/src/base-error.ts:121](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L121)
 
 Returns a JSON representation of the error.
 
@@ -266,55 +260,27 @@ A JSON representation of the error.
 
 ### captureStackTrace()
 
-#### Call Signature
-
-> `static` **captureStackTrace**(`targetObject`, `constructorOpt`?): `void`
-
-Defined in: node\_modules/.pnpm/@types+node@22.10.10/node\_modules/@types/node/globals.d.ts:136
-
-Create .stack property on a target object
-
-##### Parameters
-
-###### targetObject
-
-`object`
-
-###### constructorOpt?
-
-`Function`
-
-##### Returns
-
-`void`
-
-##### Inherited from
-
-[`BaseError`](BaseError.md).[`captureStackTrace`](BaseError.md#capturestacktrace)
-
-#### Call Signature
-
 > `static` **captureStackTrace**(`targetObject`, `constructorOpt`?): `void`
 
 Defined in: node\_modules/.pnpm/@types+node@22.13.10/node\_modules/@types/node/globals.d.ts:136
 
 Create .stack property on a target object
 
-##### Parameters
+#### Parameters
 
-###### targetObject
+##### targetObject
 
 `object`
 
-###### constructorOpt?
+##### constructorOpt?
 
 `Function`
 
-##### Returns
+#### Returns
 
 `void`
 
-##### Inherited from
+#### Inherited from
 
 [`BaseError`](BaseError.md).[`captureStackTrace`](BaseError.md#capturestacktrace)
 
@@ -324,7 +290,7 @@ Create .stack property on a target object
 
 > `static` **create**(`__namedParameters`): [`CommonError`](CommonError.md)
 
-Defined in: [packages/common-error/src/base-error.ts:153](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L153)
+Defined in: [packages/common-error/src/base-error.ts:167](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L167)
 
 #### Parameters
 
@@ -360,7 +326,7 @@ Defined in: [packages/common-error/src/base-error.ts:153](https://github.com/isd
 
 > `static` **createErrorClass**(`aType`, `aErrorCode`?, `ParentErrorClass`?): *typeof* [`BaseError`](BaseError.md)
 
-Defined in: [packages/common-error/src/base-error.ts:70](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L70)
+Defined in: [packages/common-error/src/base-error.ts:70](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L70)
 
 Create an Error Class
 
@@ -391,3 +357,44 @@ the new Error Class
 #### Inherited from
 
 [`BaseError`](BaseError.md).[`createErrorClass`](BaseError.md#createerrorclass)
+
+***
+
+### fromJSON()
+
+> `static` **fromJSON**(`json`): [`BaseError`](BaseError.md)
+
+Defined in: [packages/common-error/src/base-error.ts:151](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L151)
+
+Creates a new error instance from a JSON representation.
+This method is useful for deserializing an error that was serialized with `toJSON`.
+
+#### Parameters
+
+##### json
+
+`any`
+
+A JSON object representing the error.
+
+#### Returns
+
+[`BaseError`](BaseError.md)
+
+A new instance of the error class (or a subclass).
+
+#### Example
+
+```ts
+const originalError = new NotFoundError('thing');
+const json = originalError.toJSON();
+
+// Deserialize
+const newError = NotFoundError.fromJSON(json);
+console.log(newError instanceof NotFoundError); // true
+console.log(newError.message); // 'Could not find thing.'
+```
+
+#### Inherited from
+
+[`BaseError`](BaseError.md).[`fromJSON`](BaseError.md#fromjson-2)

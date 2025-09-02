@@ -8,7 +8,7 @@
 
 > **throwError**(`message`, `name`?, `status`?): `never`
 
-Defined in: [packages/common-error/src/base-error.ts:252](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L252)
+Defined in: [packages/common-error/src/base-error.ts:266](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L266)
 
 Throw an error
 

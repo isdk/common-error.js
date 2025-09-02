@@ -6,7 +6,7 @@
 
 # Enumeration: ErrorCode
 
-Defined in: [packages/common-error/src/base-error.ts:5](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L5)
+Defined in: [packages/common-error/src/base-error.ts:5](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L5)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [packages/common-error/src/base-error.ts:5](https://github.com/isdk/
 
 > **Aborted**: `499`
 
-Defined in: [packages/common-error/src/base-error.ts:20](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L20)
+Defined in: [packages/common-error/src/base-error.ts:20](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L20)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/common-error/src/base-error.ts:20](https://github.com/isdk
 
 > **Accepted**: `202`
 
-Defined in: [packages/common-error/src/base-error.ts:7](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L7)
+Defined in: [packages/common-error/src/base-error.ts:7](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L7)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/common-error/src/base-error.ts:7](https://github.com/isdk/
 
 > **BadGateway**: `502`
 
-Defined in: [packages/common-error/src/base-error.ts:24](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L24)
+Defined in: [packages/common-error/src/base-error.ts:24](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L24)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/common-error/src/base-error.ts:24](https://github.com/isdk
 
 > **BadRequest**: `400`
 
-Defined in: [packages/common-error/src/base-error.ts:8](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L8)
+Defined in: [packages/common-error/src/base-error.ts:8](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L8)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/common-error/src/base-error.ts:8](https://github.com/isdk/
 
 > **Conflict**: `409`
 
-Defined in: [packages/common-error/src/base-error.ts:17](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L17)
+Defined in: [packages/common-error/src/base-error.ts:17](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L17)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/common-error/src/base-error.ts:17](https://github.com/isdk
 
 > **Corruption**: `409`
 
-Defined in: [packages/common-error/src/base-error.ts:18](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L18)
+Defined in: [packages/common-error/src/base-error.ts:18](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L18)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/common-error/src/base-error.ts:18](https://github.com/isdk
 
 > **Forbidden**: `403`
 
-Defined in: [packages/common-error/src/base-error.ts:12](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L12)
+Defined in: [packages/common-error/src/base-error.ts:12](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L12)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/common-error/src/base-error.ts:12](https://github.com/isdk
 
 > **GatewayTimeout**: `504`
 
-Defined in: [packages/common-error/src/base-error.ts:26](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L26)
+Defined in: [packages/common-error/src/base-error.ts:26](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L26)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/common-error/src/base-error.ts:26](https://github.com/isdk
 
 > **InternalError**: `500`
 
-Defined in: [packages/common-error/src/base-error.ts:21](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L21)
+Defined in: [packages/common-error/src/base-error.ts:21](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L21)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [packages/common-error/src/base-error.ts:21](https://github.com/isdk
 
 > **InvalidArgument**: `400`
 
-Defined in: [packages/common-error/src/base-error.ts:9](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L9)
+Defined in: [packages/common-error/src/base-error.ts:9](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L9)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [packages/common-error/src/base-error.ts:9](https://github.com/isdk/
 
 > **MethodNotAllowed**: `405`
 
-Defined in: [packages/common-error/src/base-error.ts:14](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L14)
+Defined in: [packages/common-error/src/base-error.ts:14](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L14)
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: [packages/common-error/src/base-error.ts:14](https://github.com/isdk
 
 > **NotAcceptable**: `406`
 
-Defined in: [packages/common-error/src/base-error.ts:15](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L15)
+Defined in: [packages/common-error/src/base-error.ts:15](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L15)
 
 ***
 
@@ -110,7 +110,7 @@ Defined in: [packages/common-error/src/base-error.ts:15](https://github.com/isdk
 
 > **NotFound**: `404`
 
-Defined in: [packages/common-error/src/base-error.ts:13](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L13)
+Defined in: [packages/common-error/src/base-error.ts:13](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L13)
 
 ***
 
@@ -118,7 +118,7 @@ Defined in: [packages/common-error/src/base-error.ts:13](https://github.com/isdk
 
 > **NotImplemented**: `501`
 
-Defined in: [packages/common-error/src/base-error.ts:22](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L22)
+Defined in: [packages/common-error/src/base-error.ts:22](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L22)
 
 ***
 
@@ -126,7 +126,7 @@ Defined in: [packages/common-error/src/base-error.ts:22](https://github.com/isdk
 
 > **NotSupported**: `501`
 
-Defined in: [packages/common-error/src/base-error.ts:23](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L23)
+Defined in: [packages/common-error/src/base-error.ts:23](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L23)
 
 ***
 
@@ -134,7 +134,7 @@ Defined in: [packages/common-error/src/base-error.ts:23](https://github.com/isdk
 
 > **OK**: `200`
 
-Defined in: [packages/common-error/src/base-error.ts:6](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L6)
+Defined in: [packages/common-error/src/base-error.ts:6](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L6)
 
 ***
 
@@ -142,7 +142,7 @@ Defined in: [packages/common-error/src/base-error.ts:6](https://github.com/isdk/
 
 > **PaymentRequired**: `402`
 
-Defined in: [packages/common-error/src/base-error.ts:11](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L11)
+Defined in: [packages/common-error/src/base-error.ts:11](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L11)
 
 ***
 
@@ -150,7 +150,7 @@ Defined in: [packages/common-error/src/base-error.ts:11](https://github.com/isdk
 
 > **RequestTimeout**: `408`
 
-Defined in: [packages/common-error/src/base-error.ts:16](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L16)
+Defined in: [packages/common-error/src/base-error.ts:16](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L16)
 
 ***
 
@@ -158,7 +158,7 @@ Defined in: [packages/common-error/src/base-error.ts:16](https://github.com/isdk
 
 > **ServiceUnavailable**: `503`
 
-Defined in: [packages/common-error/src/base-error.ts:25](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L25)
+Defined in: [packages/common-error/src/base-error.ts:25](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L25)
 
 ***
 
@@ -166,7 +166,7 @@ Defined in: [packages/common-error/src/base-error.ts:25](https://github.com/isdk
 
 > **TooManyRequests**: `429`
 
-Defined in: [packages/common-error/src/base-error.ts:19](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L19)
+Defined in: [packages/common-error/src/base-error.ts:19](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L19)
 
 ***
 
@@ -174,4 +174,4 @@ Defined in: [packages/common-error/src/base-error.ts:19](https://github.com/isdk
 
 > **Unauthorized**: `401`
 
-Defined in: [packages/common-error/src/base-error.ts:10](https://github.com/isdk/common-error.js/blob/ba75328e754ba949e73cfe3c3e47f894c8ab334d/src/base-error.ts#L10)
+Defined in: [packages/common-error/src/base-error.ts:10](https://github.com/isdk/common-error.js/blob/577bb8389747251b05fc6177a60862a64b029c0d/src/base-error.ts#L10)
